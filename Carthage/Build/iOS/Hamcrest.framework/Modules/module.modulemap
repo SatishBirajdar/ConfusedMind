@@ -1,0 +1,4 @@
+framework module Hamcrest {
+    header "Hamcrest-Swift.h"
+    requires objc
+}

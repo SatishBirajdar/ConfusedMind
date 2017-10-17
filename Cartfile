@@ -1,0 +1,2 @@
+github "nschum/SwiftHamcrest"
+github "danielgindi/Charts" ~> 3.0.4

@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30458761F8C485F009997A6 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30458751F8C485F009997A6 /* Charts.framework */; };
+		E31075D91F956C4200BC6769 /* CardViewDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31075D81F956C4200BC6769 /* CardViewDesignable.swift */; };
+		E313FDAC1F8C46DE00DC2C61 /* SelectItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E313FDAB1F8C46DE00DC2C61 /* SelectItemView.xib */; };
+		E317BE8A1F79D3BC00B1DB0E /* ItemListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E317BE891F79D3BC00B1DB0E /* ItemListView.xib */; };
+		E317BE8C1F79D7AD00B1DB0E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E317BE8B1F79D7AD00B1DB0E /* Item.swift */; };
+		E317BE911F79D84D00B1DB0E /* ItemListPresenterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E317BE901F79D84D00B1DB0E /* ItemListPresenterContract.swift */; };
+		E317BE931F79D94900B1DB0E /* ItemListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E317BE921F79D94900B1DB0E /* ItemListPresenterTest.swift */; };
+		E317BE951F79D99B00B1DB0E /* ItemPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E317BE941F79D99B00B1DB0E /* ItemPresenterImpl.swift */; };
+		E3426C931F85C7A600DFF648 /* SelectItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3426C921F85C7A600DFF648 /* SelectItemViewController.swift */; };
+		E3944F781F79FD1800037B3A /* ItemListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3944F771F79FD1800037B3A /* ItemListViewControllerTest.swift */; };
+		E3EE88101F7B3EA900EC14CC /* ItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE880F1F7B3EA900EC14CC /* ItemService.swift */; };
 		E3F3D4391F4D242700216728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F3D4381F4D242700216728 /* AppDelegate.swift */; };
-		E3F3D43B1F4D242700216728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F3D43A1F4D242700216728 /* ViewController.swift */; };
-		E3F3D43E1F4D242700216728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F3D43C1F4D242700216728 /* Main.storyboard */; };
+		E3F3D43B1F4D242700216728 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F3D43A1F4D242700216728 /* ItemListViewController.swift */; };
 		E3F3D4411F4D242700216728 /* ConfusedMind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3F3D43F1F4D242700216728 /* ConfusedMind.xcdatamodeld */; };
 		E3F3D4431F4D242700216728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F3D4421F4D242700216728 /* Assets.xcassets */; };
 		E3F3D4461F4D242700216728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F3D4441F4D242700216728 /* LaunchScreen.storyboard */; };
-		E3F3D4511F4D242700216728 /* ConfusedMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F3D4501F4D242700216728 /* ConfusedMindTests.swift */; };
 		E3F3D45C1F4D242700216728 /* ConfusedMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F3D45B1F4D242700216728 /* ConfusedMindUITests.swift */; };
+		E3F3D46A1F4D32C000216728 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F3D4691F4D32C000216728 /* ItemCell.xib */; };
+		E3FA43761F81552B002A46E4 /* AddListItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FA43751F81552B002A46E4 /* AddListItemView.xib */; };
+		E3FA43781F815553002A46E4 /* AddListItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA43771F815553002A46E4 /* AddListItemViewController.swift */; };
+		E3FA437C1F8155C9002A46E4 /* AddListItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA437B1F8155C9002A46E4 /* AddListItemPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,21 +47,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E3944F731F79FAF300037B3A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E30458751F8C485F009997A6 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
+		E31075D81F956C4200BC6769 /* CardViewDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewDesignable.swift; sourceTree = "<group>"; };
+		E313FDAB1F8C46DE00DC2C61 /* SelectItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectItemView.xib; sourceTree = "<group>"; };
+		E317BE891F79D3BC00B1DB0E /* ItemListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemListView.xib; sourceTree = "<group>"; };
+		E317BE8B1F79D7AD00B1DB0E /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E317BE901F79D84D00B1DB0E /* ItemListPresenterContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListPresenterContract.swift; sourceTree = "<group>"; };
+		E317BE921F79D94900B1DB0E /* ItemListPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListPresenterTest.swift; sourceTree = "<group>"; };
+		E317BE941F79D99B00B1DB0E /* ItemPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPresenterImpl.swift; sourceTree = "<group>"; };
+		E317BE991F79F51300B1DB0E /* Hamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hamcrest.framework; path = Carthage/Build/iOS/Hamcrest.framework; sourceTree = "<group>"; };
+		E3426C921F85C7A600DFF648 /* SelectItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectItemViewController.swift; sourceTree = "<group>"; };
+		E3944F771F79FD1800037B3A /* ItemListViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewControllerTest.swift; sourceTree = "<group>"; };
+		E3EE880F1F7B3EA900EC14CC /* ItemService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemService.swift; sourceTree = "<group>"; };
 		E3F3D4351F4D242700216728 /* ConfusedMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfusedMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F3D4381F4D242700216728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3F3D43A1F4D242700216728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3F3D43D1F4D242700216728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3F3D43A1F4D242700216728 /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		E3F3D4401F4D242700216728 /* ConfusedMind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConfusedMind.xcdatamodel; sourceTree = "<group>"; };
 		E3F3D4421F4D242700216728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3F3D4451F4D242700216728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3F3D4471F4D242700216728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3F3D44C1F4D242700216728 /* ConfusedMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfusedMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3F3D4501F4D242700216728 /* ConfusedMindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfusedMindTests.swift; sourceTree = "<group>"; };
 		E3F3D4521F4D242700216728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3F3D4571F4D242700216728 /* ConfusedMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfusedMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F3D45B1F4D242700216728 /* ConfusedMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfusedMindUITests.swift; sourceTree = "<group>"; };
 		E3F3D45D1F4D242700216728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F3D4691F4D32C000216728 /* ItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		E3FA43751F81552B002A46E4 /* AddListItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddListItemView.xib; sourceTree = "<group>"; };
+		E3FA43771F815553002A46E4 /* AddListItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListItemViewController.swift; sourceTree = "<group>"; };
+		E3FA437B1F8155C9002A46E4 /* AddListItemPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListItemPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30458761F8C485F009997A6 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +117,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E31075DA1F956C4A00BC6769 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E31075D81F956C4200BC6769 /* CardViewDesignable.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		E317BE8D1F79D7E900B1DB0E /* Item List */ = {
+			isa = PBXGroup;
+			children = (
+				E317BE8F1F79D81C00B1DB0E /* Model */,
+				E317BE8E1F79D80A00B1DB0E /* View */,
+				E317BE961F79D99F00B1DB0E /* Presenter */,
+				E317BE901F79D84D00B1DB0E /* ItemListPresenterContract.swift */,
+			);
+			name = "Item List";
+			sourceTree = "<group>";
+		};
+		E317BE8E1F79D80A00B1DB0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3F3D43A1F4D242700216728 /* ItemListViewController.swift */,
+				E317BE891F79D3BC00B1DB0E /* ItemListView.xib */,
+				E3F3D4691F4D32C000216728 /* ItemCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E317BE8F1F79D81C00B1DB0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E317BE8B1F79D7AD00B1DB0E /* Item.swift */,
+				E3EE880F1F7B3EA900EC14CC /* ItemService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E317BE961F79D99F00B1DB0E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E317BE941F79D99B00B1DB0E /* ItemPresenterImpl.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		E317BE981F79F51300B1DB0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E30458751F8C485F009997A6 /* Charts.framework */,
+				E317BE991F79F51300B1DB0E /* Hamcrest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3426C911F85C6A300DFF648 /* Select Item Pie Chart */ = {
+			isa = PBXGroup;
+			children = (
+				E3426C961F85C7C900DFF648 /* View */,
+			);
+			name = "Select Item Pie Chart";
+			sourceTree = "<group>";
+		};
+		E3426C961F85C7C900DFF648 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E313FDAB1F8C46DE00DC2C61 /* SelectItemView.xib */,
+				E3426C921F85C7A600DFF648 /* SelectItemViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E3F3D42C1F4D242700216728 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +196,7 @@
 				E3F3D44F1F4D242700216728 /* ConfusedMindTests */,
 				E3F3D45A1F4D242700216728 /* ConfusedMindUITests */,
 				E3F3D4361F4D242700216728 /* Products */,
+				E317BE981F79F51300B1DB0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +214,14 @@
 			isa = PBXGroup;
 			children = (
 				E3F3D4381F4D242700216728 /* AppDelegate.swift */,
-				E3F3D43A1F4D242700216728 /* ViewController.swift */,
-				E3F3D43C1F4D242700216728 /* Main.storyboard */,
+				E3426C911F85C6A300DFF648 /* Select Item Pie Chart */,
+				E317BE8D1F79D7E900B1DB0E /* Item List */,
+				E3FA43791F815560002A46E4 /* Add List Item */,
 				E3F3D4421F4D242700216728 /* Assets.xcassets */,
 				E3F3D4441F4D242700216728 /* LaunchScreen.storyboard */,
 				E3F3D4471F4D242700216728 /* Info.plist */,
 				E3F3D43F1F4D242700216728 /* ConfusedMind.xcdatamodeld */,
+				E31075DA1F956C4A00BC6769 /* Util */,
 			);
 			path = ConfusedMind;
 			sourceTree = "<group>";
@@ -113,7 +229,8 @@
 		E3F3D44F1F4D242700216728 /* ConfusedMindTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3F3D4501F4D242700216728 /* ConfusedMindTests.swift */,
+				E317BE921F79D94900B1DB0E /* ItemListPresenterTest.swift */,
+				E3944F771F79FD1800037B3A /* ItemListViewControllerTest.swift */,
 				E3F3D4521F4D242700216728 /* Info.plist */,
 			);
 			path = ConfusedMindTests;
@@ -128,6 +245,32 @@
 			path = ConfusedMindUITests;
 			sourceTree = "<group>";
 		};
+		E3FA43791F815560002A46E4 /* Add List Item */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA437A1F815582002A46E4 /* View */,
+				E3FA437D1F815655002A46E4 /* Presenter */,
+			);
+			name = "Add List Item";
+			sourceTree = "<group>";
+		};
+		E3FA437A1F815582002A46E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA43751F81552B002A46E4 /* AddListItemView.xib */,
+				E3FA43771F815553002A46E4 /* AddListItemViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E3FA437D1F815655002A46E4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E3FA437B1F8155C9002A46E4 /* AddListItemPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +281,8 @@
 				E3F3D4311F4D242700216728 /* Sources */,
 				E3F3D4321F4D242700216728 /* Frameworks */,
 				E3F3D4331F4D242700216728 /* Resources */,
+				E317BE971F79F2D200B1DB0E /* Carthage copy */,
+				E3944F731F79FAF300037B3A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +300,7 @@
 				E3F3D4481F4D242700216728 /* Sources */,
 				E3F3D4491F4D242700216728 /* Frameworks */,
 				E3F3D44A1F4D242700216728 /* Resources */,
+				E3944F751F79FBA000037B3A /* Carthage Copy */,
 			);
 			buildRules = (
 			);
@@ -201,7 +347,6 @@
 					};
 					E3F3D44B1F4D242700216728 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 3PSKWPY773;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E3F3D4341F4D242700216728;
 					};
@@ -238,9 +383,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FA43761F81552B002A46E4 /* AddListItemView.xib in Resources */,
+				E313FDAC1F8C46DE00DC2C61 /* SelectItemView.xib in Resources */,
+				E317BE8A1F79D3BC00B1DB0E /* ItemListView.xib in Resources */,
+				E3F3D46A1F4D32C000216728 /* ItemCell.xib in Resources */,
 				E3F3D4461F4D242700216728 /* LaunchScreen.storyboard in Resources */,
 				E3F3D4431F4D242700216728 /* Assets.xcassets in Resources */,
-				E3F3D43E1F4D242700216728 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +408,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E317BE971F79F2D200B1DB0E /* Carthage copy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Hamcrest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Charts.framework",
+			);
+			name = "Carthage copy";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		E3944F751F79FBA000037B3A /* Carthage Copy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Hamcrest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Charts.framework",
+			);
+			name = "Carthage Copy";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3F3D4311F4D242700216728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F3D43B1F4D242700216728 /* ViewController.swift in Sources */,
+				E3EE88101F7B3EA900EC14CC /* ItemService.swift in Sources */,
+				E3426C931F85C7A600DFF648 /* SelectItemViewController.swift in Sources */,
+				E31075D91F956C4200BC6769 /* CardViewDesignable.swift in Sources */,
+				E317BE8C1F79D7AD00B1DB0E /* Item.swift in Sources */,
+				E3F3D43B1F4D242700216728 /* ItemListViewController.swift in Sources */,
 				E3F3D4411F4D242700216728 /* ConfusedMind.xcdatamodeld in Sources */,
+				E3FA437C1F8155C9002A46E4 /* AddListItemPresenter.swift in Sources */,
+				E317BE911F79D84D00B1DB0E /* ItemListPresenterContract.swift in Sources */,
+				E3FA43781F815553002A46E4 /* AddListItemViewController.swift in Sources */,
 				E3F3D4391F4D242700216728 /* AppDelegate.swift in Sources */,
+				E317BE951F79D99B00B1DB0E /* ItemPresenterImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +466,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F3D4511F4D242700216728 /* ConfusedMindTests.swift in Sources */,
+				E317BE931F79D94900B1DB0E /* ItemListPresenterTest.swift in Sources */,
+				E3944F781F79FD1800037B3A /* ItemListViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +495,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E3F3D43C1F4D242700216728 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3F3D43D1F4D242700216728 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3F3D4441F4D242700216728 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,8 +604,13 @@
 		E3F3D4611F4D242700216728 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3PSKWPY773;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ConfusedMind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.SBSoftwares.ConfusedMind;
@@ -433,8 +622,13 @@
 		E3F3D4621F4D242700216728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3PSKWPY773;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ConfusedMind/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.SBSoftwares.ConfusedMind;
@@ -448,11 +642,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3PSKWPY773;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				INFOPLIST_FILE = ConfusedMindTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.SBSoftwares.ConfusedMindTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfusedMind.app/ConfusedMind";
 			};
@@ -463,11 +664,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3PSKWPY773;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				INFOPLIST_FILE = ConfusedMindTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.SBSoftwares.ConfusedMindTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConfusedMind.app/ConfusedMind";
 			};
@@ -520,6 +728,7 @@
 				E3F3D4621F4D242700216728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3F3D4631F4D242700216728 /* Build configuration list for PBXNativeTarget "ConfusedMindTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +737,7 @@
 				E3F3D4651F4D242700216728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3F3D4661F4D242700216728 /* Build configuration list for PBXNativeTarget "ConfusedMindUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +746,7 @@
 				E3F3D4681F4D242700216728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
