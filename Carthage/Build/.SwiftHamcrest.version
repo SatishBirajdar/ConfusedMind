@@ -2,7 +2,7 @@
   "commitish" : "1.0.0",
   "iOS" : [
     {
-      "hash" : "b8a8436ae4ecb4cb27b303f87384af583521d5adaac128a619d1e551b0ddeea2",
+      "hash" : "51aef7e37a8f28e82f11cb7c39efe0edc190282823b025d11995c82a97b14c78",
       "name" : "Hamcrest"
     }
   ]

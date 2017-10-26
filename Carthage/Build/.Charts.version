@@ -2,7 +2,7 @@
   "commitish" : "v3.0.4",
   "iOS" : [
     {
-      "hash" : "c7432fb3ffb1c375a21d6711546813687d082bc96382dd7b127413c249712843",
+      "hash" : "ff7f8b88a6ad21cbf8779259751840910e18e103c9df1e344cd8c3d080ca989d",
       "name" : "Charts"
     }
   ]

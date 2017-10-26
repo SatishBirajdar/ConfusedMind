@@ -2,7 +2,7 @@
 //  ConfusedMindUITests.swift
 //  ConfusedMindUITests
 //
-//  Created by Satish Birajdar on 2017-08-22.
+//  Created by Satish Birajdar on 2017-10-17.
 //  Copyright © 2017 SBSoftwares. All rights reserved.
 //
 
